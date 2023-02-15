@@ -94,9 +94,6 @@ const Home: NextPage = () => {
 
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
-        
-
-
       <a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
           href="https://github.com/guaguaguaxia/weekly_report"
@@ -106,14 +103,10 @@ const Home: NextPage = () => {
           <Github />
           <p>Star on GitHub</p>
         </a>
-
-
-
         <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
           {t('description1')} <br></br><div               className=" px-4 py-2 sm:mt-3 mt-8 hover:bg-black/80 w-full"></div>{t('description2')}
         </h1>
         <p className="text-slate-500 mt-5">{t('slogan')}</p>
-
         <div className="max-w-xl w-full">
           { useUserKey &&(
             <>
@@ -135,7 +128,7 @@ const Home: NextPage = () => {
               width={30}
               height={30}
               alt="1 icon"
-              className="mb-5 xs:mb-0"
+              className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
               {t('step1')}{" "}
